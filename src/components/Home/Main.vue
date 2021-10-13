@@ -464,7 +464,7 @@ export default {
                     border: 1px solid #c4c4c4;
                     font-size: 16px;
                     margin-bottom: 30px;
-                    background-color: #e5e5e5;
+                    background-color: #f7f7f7;
 
                     &::-webkit-input-placeholder {
                         color: #b9b9b9;
