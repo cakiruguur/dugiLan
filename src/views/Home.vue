@@ -3,10 +3,12 @@
 <Hero />
 <Customers />
 <Main></Main>
+<Contact></Contact>
 <Footer></Footer>
 </template>
 
 <script>
+import Contact from "../components/Home/Contact.vue";
 import Footer from "../components/Footer.vue";
 import Main from "../components/Home/Main.vue";
 import Header from '../components/Header.vue'
@@ -19,7 +21,8 @@ export default {
         Hero,
         Customers,
         Main,
-        Footer
+        Footer,
+        Contact
     }
 }
 </script>

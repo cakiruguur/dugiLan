@@ -466,13 +466,40 @@ export default {
                     margin-bottom: 30px;
                     background-color: #e5e5e5;
 
+                    &::-webkit-input-placeholder {
+                        color: #b9b9b9;
+                        -webkit-transition: all 0.3s ease;
+                        transition: all 0.3s ease;
+                    }
+                    &::-moz-placeholder {
+                        color: #b9b9b9;
+                        -moz-transition: all 0.3s ease;
+                        transition: all 0.3s ease;
+                    }
+                    &:-ms-input-placeholder {
+                        color: #b9b9b9;
+                        -ms-transition: all 0.3s ease;
+                        transition: all 0.3s ease;
+                    }
+                    &::-ms-input-placeholder {
+                        color: #b9b9b9;
+                        -ms-transition: all 0.3s ease;
+                        transition: all 0.3s ease;
+                    }
                     &::placeholder {
                         color: #b9b9b9;
-                        transition: all 0.3s;
+                        -webkit-transition: all 0.3s ease;
+                        -o-transition: all 0.3s ease;
+                        transition: all 0.3s ease;
                     }
 
                     &:focus::placeholder {
                         transform: translateX(150px);
+                        -webkit-transform: translateX(150px);
+                        -moz-transform: translateX(150px);
+                        -ms-transform: translateX(150px);
+                        -o-transform: translateX(150px);
+
                         opacity: 0;
                     }
                 }
