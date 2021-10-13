@@ -13,7 +13,7 @@
                     <img src="../../assets/img/linkedin.svg" alt />
                 </li>
                 <li>
-                    <img src="../../assets/img/forbes.svg" alt />
+                    <img src="../../assets/img/Forbes.svg" alt />
                 </li>
                 <li>
                     <img src="../../assets/img/dell.svg" alt />
